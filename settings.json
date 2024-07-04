@@ -1,11 +1,11 @@
 {
-  "name": "Heliactyl",
+  "name": "Halix",
   "pterodactyl": {
-    "domain": "https://panel.example.com",
-    "key": "Your Pterodactyl API key with all permissions"
+    "domain": "https://improved-lamp-69v7q95x74q5h5r6j-80.app.github.dev",
+    "key": "ptla_prNj9IZo8nqloyceEvkCEYOhyjUdRSoghkt68a9zPRu"
   },
   "timezone": "Europe/London",
-  "version": "14.11.1",
+  "version": "1.0",
   "testing": false,
   "website": {
     "port": 3000,
@@ -47,9 +47,9 @@
         },
         "giverole": {
           "_comment": "Auto-join must be enabled for this to work - or the user must already be in your Discord. This will give the user a role when they login.",
-          "enabled": false,
-          "guildid": "000000000000000000",
-          "roleid": "000000000000000000"
+          "enabled": true,
+          "guildid": "1108410656996216843",
+          "roleid": "1257999071575146527"
         }
       },
       "passwordgenerator": {
@@ -69,9 +69,9 @@
       },
       "oauth2": {
         "_comment": "Go to https://discord.dev/ and create an application to set up OAuth2. This is required for Heliactyl to work. You must also set the redirect URL to the link below.",
-        "id": "Your client ID",
-        "secret": "Your client secret",
-        "link": "http://localhost:3000",
+        "id": "1257993113209667584",
+        "secret": "15H1gfuMbC5F3QQ_TmUwn6Cy3KOBGOXl",
+        "link": "https://improved-lamp-69v7q95x74q5h5r6j-3000.app.github.dev",
         "callbackpath": "/callback",
         "prompt": true,
         "ip": {
@@ -97,9 +97,9 @@
         "default": "default",
         "list": {
           "default": {
-            "ram": 1024,
-            "disk": 1024,
-            "cpu": 100,
+            "ram": 12000,
+            "disk": 64000,
+            "cpu": 400,
             "servers": 2
           }
         },
@@ -114,11 +114,11 @@
       "locations": {
         "1": {
           "package": null,
-          "name": "Location 1"
+          "name": "SGP-1-FREE"
         },
         "2": {
           "package": null,
-          "name": "Location 2"
+          "name": "EU-1-FREE"
         }
       },
       "eggs": {
@@ -180,19 +180,19 @@
         "store": {
           "enabled": true,
           "ram": {
-            "cost": 300,
+            "cost": 70,
             "per": 1024
           },
           "disk": {
-            "cost": 200,
+            "cost": 50,
             "per": 5120
           },
           "cpu": {
-            "cost": 350,
+            "cost": 95,
             "per": 100
           },
           "servers": {
-            "cost": 100,
+            "cost": 25,
             "per": 2
           }
         }
@@ -202,7 +202,7 @@
       "_note": "This is the 2nd-generation version of Heliactyl's AFK system. Please report any bugs on the GitHub (github.com/heliactyloss/heliactyl). Thank you.",
       "path": "ws",
       "every": 60,
-      "coins": 1,
+      "coins": 2.5,
       "enabled": true
     }
   },
